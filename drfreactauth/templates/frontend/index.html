@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drf react authentication</title>
+</head>
+<body>
+    {% load static %}
+    <div id="app"></div>
+    <input type="hidden" id="temp">
+    {% csrf_token %}
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.13.0/sweetalert2.min.css">
+    <script src="{% static 'frontend/main.js' %}"></script>
+</body>
+</html>
